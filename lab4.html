@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 - Animations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">BTH645</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--content-->
+    <div class="container py-4 mt-60">
+        <h1>Animations</h1>
+        <p>Animation is the illusion of movement by rapidly displaying static images (frames) in a sequence. Animations
+            are often viewed on interfaces as videos, which are discussed on the "Lab 5 - Videos" page of the blog.
+            These animations have specific framerates, like videos, so the more frames per second, the faster it cycles
+            through them, ultimately making the animation smoother. Animation examples are shown below in videos. Let's
+            check out some information and guidelines for animation usage!
+        </p>
+        <hr>
+        <!--row 1-->
+        <div class="row">
+            <div class="col">
+                <video class="rounded img-fluid" controls muted>
+                    <source src="videos/laptop.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="figure-caption text-center">Video by <a
+                        href="https://pixabay.com/users/videoplasty-19751245/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=61037">
+                        VideoPlasty.com</a> from <a
+                        href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=61037">Pixabay</a>
+                </p>
+            </div>
+            <div class="col my-auto">
+                <h2>Creation</h2>
+                <p>Depending on the type of animation, the frames are created in different ways, such as drawing or
+                    rendering. When an animation is created using rendering, there are usually key frames that store
+                    object states at significant points during the sequence, and then a process called "tweening" will
+                    calculate the frames between these keypoints to match the frames per second. Another method instead
+                    of key frames and tweening are scripts that run transformation commands on the objects. When using
+                    animations, make sure the frame rate is high enough for the animation to look smooth. A good amount
+                    would be at least 24 which is the standard for movies.</p>
+            </div>
+        </div>
+        <hr>
+        <!--row 2-->
+        <div class="row">
+            <div class="col my-auto">
+                <h2>Types</h2>
+                <p>Animations can be made in both 2D and 3D space and can be hand-drawn or computer-generated. Some
+                    types of animations include:</p>
+                <ul>
+                    <li>Traditional: drawing each frame by hand and putting them in a sequence</li>
+                    <li>2D Animation: vector-based made using computers</li>
+                    <li>3D Animation: made in 3D space with advanced modelling software</li>
+                    <li>Motion Graphics: graphical elements are moved and animated</li>
+                    <li>Stop Motion: moving and taking pictures of objects and putting them in a sequence</li>
+                    <li>Rotoscoping: capturing human movements and drawing over it</li>
+                </ul>
+            </div>
+            <div class="col">
+                <video class="rounded img-fluid" controls muted>
+                    <source src="videos/ninja.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="figure-caption text-center">Video by <a
+                        href="https://pixabay.com/users/jovanimaiuri067-22718923/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=83274">
+                        jovanimaiuri067</a> from <a
+                        href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=83274">Pixabay</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!--row 3-->
+        <div class="row">
+            <div class="col">
+                <video class="rounded img-fluid" controls muted>
+                    <source src="videos/soldier.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="figure-caption text-center">Video by <a
+                        href="https://pixabay.com/users/julientromeur-3630051/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=40481">
+                        Julien Tromeur</a> from <a
+                        href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=40481">Pixabay</a>
+                </p>
+            </div>
+            <div class="col my-auto">
+                <h2>Usage</h2>
+                <p>Animations are used in many multimedia scenarios for various reasons. They can allow information to
+                    be easily understood and visualized (better than text) or used whenever simulation of movement is
+                    needed. Some examples include:</p>
+                <ul>
+                    <li>educational, scientific, or medical videos to help visualize ideas</li>
+                    <li>showcases or advertisements for products and services</li>
+                    <li>entertainment such as movies or videos</li>
+                    <li>transitions between presentation slides</li>
+                    <li>movement for characters and other dynamic objects in video games</li>
+                </ul>
+            </div>
+        </div>
+        <!--footer-->
+        <footer class="pt-3 mt-4 text-muted border-top">© 2023 Julian</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
