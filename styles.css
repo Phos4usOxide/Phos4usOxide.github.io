@@ -1,3 +1,18 @@
 .mt-60 {
     margin-top: 60px;
 }
+
+.spaced-list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+#back-to-blog {
+    text-decoration: none;
+    color: black;
+}
+
+#back-to-blog:hover,
+#back-to-blog:visited {
+    color: black;
+    text-decoration: underline;
+}
